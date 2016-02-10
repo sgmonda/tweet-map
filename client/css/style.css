@@ -1,0 +1,19 @@
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.tweet {
+	display: block;
+	width: 150px !important;
+	text-decoration: none;
+	color: inherit;
+}
+.tweet > img {
+	width: 100%;
+}
+.username {
+	font-family: monospace;
+	font-size: small;
+	color: gray
+}

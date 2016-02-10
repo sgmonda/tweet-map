@@ -1,0 +1,12 @@
+<a class="tweet" href="<%= url %>" target="_blank">
+	<img src="<%= user.avatar %>" style="width: 16px"/>
+	<span class="username">
+		<%= user.username %>
+	</span>
+	<div>
+		<%= content %>
+	</div>
+	<% images.map(function (url) { %>
+		<img src="<%= url %>"/>
+	<% }); %>
+</a>
